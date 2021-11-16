@@ -428,9 +428,11 @@ form input[type="reset"]:after {
   padding: 10px 30px;
   margin-bottom: 50px;
   position: relative;
-  border: 2px solid #383838;
-  color: #d3d3d3;
+  border: 2px solid goldenrod;
+  color: #eee4e4;
+  font-weight: 500;
   text-transform: uppercase;
+  background-color: rgba(128, 128, 128, 0.623);
 }
 
 .button-back img {
@@ -440,10 +442,10 @@ form input[type="reset"]:after {
 .button-back:before,
 .button-back:after {
   content: " ";
-  width: 20px;
-  height: 20px;
+  width: 0px;
+  height: 0px;
   position: absolute;
-  background: #212121;
+  background: #21212138;
 }
 
 .button-back:before {

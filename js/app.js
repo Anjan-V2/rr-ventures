@@ -63,7 +63,7 @@
 	});
 
 
-	$(window).imagesLoaded(function(){
+	$(window).load(function(){
 		var $container = $('.filterable-items');
 
 	    $container.isotope({

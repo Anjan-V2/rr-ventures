@@ -2575,6 +2575,11 @@ form input[type="reset"]:after {
     padding-top: 30px;
     margin-top: 0px;
   }
+
+  .about2 img {
+    width: 22em;
+    height: 12em;
+  }
 }
 
 .svg-icons1 {

@@ -40,8 +40,30 @@
 	    	
 	    }
 	});
+	
 
-	$(window).load(function(){
+	$('.counter').counterUp({
+		delay: 10,
+		time: 2000,
+	});		
+
+	/* Bootstrap Accordion  */
+	$('.faq-part .card').each(function () {
+		var $this = $(this);
+		$this.on('click', function (e) {
+			e.preventDefault ();
+			var has = $this.hasClass('active');
+			$('.faq-part .card').removeClass('active show');
+			if (has) {
+				$this.removeClass('active show');
+			} else {
+				$this.addClass('active show');
+			}
+		});
+	});
+
+
+	$(window).imagesLoaded(function(){
 		var $container = $('.filterable-items');
 
 	    $container.isotope({

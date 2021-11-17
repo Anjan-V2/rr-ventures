@@ -2161,6 +2161,285 @@ form input[type="reset"]:after {
   background: #212121b6;
 }
 
+.solutech_pricing2_area {
+  padding: 95px 0px 70px;
+}
+
+.solutech_about_area.choose_page {
+  padding: 100px 0px 90px;
+}
+
+.witr_section_title_inner {
+  position: relative;
+  z-index: 1;
+}
+
+.witr_section_title_inner h1,
+.witr_section_title_inner h2,
+.witr_section_title_inner h3 {
+  font-size: 35px;
+  margin: auto;
+  font-weight: 700;
+}
+
+.witr_section_title_inner h2 {
+  font-size: 26px;
+  color: goldenrod;
+  margin-bottom: 13px;
+  display: inline-block;
+}
+
+.pricing_top {
+  margin-top: 35px;
+}
+
+.pricing_area {
+  border-radius: 5px;
+  /* margin-left: 20px;
+  */
+}
+
+.pricing_area.all_pricing_color {
+  box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 15%);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pricing-part {
+  position: relative;
+  overflow: hidden;
+  background: #6860603b;
+}
+
+.pricing-part sub {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: -65px;
+  top: 20px;
+  background: goldenrod;
+  line-height: 43px;
+  width: 217px;
+  height: 45px;
+  text-align: center;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(45deg);
+}
+
+.pricing-part ul {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+}
+
+.pricing-part ul li {
+  color: wheat;
+  line-height: 40px;
+  list-style: none;
+}
+
+.pricing-part h4 {
+  font-size: 22px;
+  padding: 26px 0 12px;
+  display: block;
+}
+
+.pricing-part h5 {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.pricing-part i {
+  font-size: 18px;
+}
+
+.pricing-part h6 {
+  font-size: 21px;
+  color: #989898;
+  display: block;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.witr_pricing_icon i {
+  color: goldenrod;
+  font-size: 40px;
+  padding-top: 40px;
+  display: block;
+}
+
+.witri_texti_list ul i {
+  margin-right: 15px;
+}
+
+.witri_texti_list ul+ul i {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.witr_btnp_color {
+  padding-top: 37px;
+  padding-bottom: 40px;
+}
+
+.pricing-part ul li:nth-child(odd) {}
+
+.pricing-part ul li:nth-child(even) {}
+
+.pricing-part a.btn {
+  background: goldenrod;
+  line-height: 41px;
+  padding: 7px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: rgb(29, 22, 22);
+  border: 1px solid wheat;
+  display: inline-block;
+}
+
+.pricing-part a.btn:hover {
+  background: transparent;
+  color: goldenrod;
+}
+
+.solutech_counter_area {
+  margin-bottom: -140px;
+  position: relative;
+  z-index: 999;
+}
+
+.counter_bg {
+  /* box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 6%); */
+  padding: 70px 0px 55px 0px;
+  /* background: #fff; */
+}
+
+.witr_counter_single {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.counter_bg .witr_counter_single {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.counter_bg .all_counter_color h3,
+.counter_bg .all_counter_color span {
+  color: goldenrod;
+  font-family: "Barlow Condensed", Sans-serif;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+}
+
+.counter_bg .all_counter_color h4,
+.counter_bg .all_counter_color h1 {
+  font-size: 22px;
+}
+
+.witr_custom_icon {}
+
+.witr_custom_icon i {
+  font-size: 60px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.counter_bg .witr_custom_icon i {
+  margin-bottom: 0px;
+  color: goldenrod;
+}
+
+.witr_counter_number_inn {
+  overflow: hidden;
+}
+
+.witr_counter_number_inn h3,
+.witr_counter_number_inn span {
+  font-size: 40px;
+  color: #0c5adb;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.witr_counter_number_inn span {
+  line-height: 0;
+}
+
+/* content */
+.witr_counter_number_inn h4 {
+  font-size: 22px;
+}
+
+.accordion_area .card-header.witr_ac_card {
+  background: none !important;
+  padding: 0;
+  border-bottom: 0;
+  text-align: left;
+}
+
+.witr_ac_card i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.accordion_area .card-2 {
+  margin-bottom: 22px;
+  border: 1px solid #ddd;
+}
+
+.accordion_area .card-2 p {
+  padding: 15px 20px 5px;
+}
+
+.witr_ac_style {
+  padding-left: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 11px 15px;
+  transition: .5s;
+}
+
+.witr_ac_style:focus,
+.witr_ac_style:hover {
+  color: #fff;
+  background: #6860603b;
+}
+
+.witr_ac_style:before {
+  /* font-family: "Font Awesome 5 Free"; */
+  content: '\f107';
+  position: absolute;
+  right: 30px;
+  font-family: 'fontawesome' !important;
+  font-weight: 400;
+}
+
+.active .witr_ac_style:before {
+  content: '\f106';
+}
+
+.active .show {
+  display: block;
+
+}
+
+.active .witr_ac_style {
+  background: #6860603b;
+  color: #fff;
+}
+
+.card-body ul {}
+
+.card-body ul li {
+  margin-left: 18px;
+  margin-bottom: 4px;
+}
+
 .fullwidth-block {
   padding: 50px 0;
 }
@@ -2264,7 +2543,8 @@ form input[type="reset"]:after {
 }
 
 .about2 img {
-  max-width: 100%;
+  width: 35em;
+  height: 18em;
 }
 
 .bg {
@@ -2519,6 +2799,11 @@ form input[type="reset"]:after {
 .page {
   padding: 50px 0;
   margin-top: 50px;
+}
+
+.page2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .page h1 {

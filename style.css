@@ -2543,12 +2543,16 @@ form input[type="reset"]:after {
 }
 
 .about2 img {
-  width: 35em;
-  height: 18em;
+  max-width: 100%;
 }
 
 .bg {
   margin-top: 100px;
+}
+
+.bg2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .text-center strong {
@@ -2576,21 +2580,22 @@ form input[type="reset"]:after {
     margin-top: 0px;
   }
 
-  .about2 img {
+  /* .about2 img {
     width: 22em;
     height: 12em;
-  }
+  } */
 }
 
 .svg-icons1 {
   margin-top: 30px;
 }
 
-.svg-icons1 h1 {
+.svg-icons1 h2 {
   color: #f4c545;
-  font-weight: 500;
+  font-size: 27px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.19em;
 }
 
 .svg-icons1 p {
@@ -2600,9 +2605,9 @@ form input[type="reset"]:after {
 }
 
 .svg-icons1 img {
-  width: 17%;
+  width: 12%;
   background: #e2ba54ab;
-  border-radius: 25px;
+  border-radius: 35px;
   margin-bottom: 10px;
 }
 
@@ -2615,6 +2620,7 @@ form input[type="reset"]:after {
 
 .svg-icons2 h2 {
   color: goldenrod;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -2630,7 +2636,7 @@ form input[type="reset"]:after {
 .our-vision .card {
   box-shadow: -2px 2px 14px 14px rgb(0 0 0 / 10%);
   padding: 45px;
-  margin: 30px 15px 10px 0px;
+  margin: 15px 15px 15px 0px;
   /* margin-bottom: 30px; */
   /* margin-right: 50px; */
   background-color: #6860603b;
@@ -2840,7 +2846,7 @@ form input[type="reset"]:after {
 .page p {
   font-size: 16px;
   font-size: 1.1428571429em;
-  line-height: 2;
+  line-height: 1.62em;
 }
 
 .feature-numbered {

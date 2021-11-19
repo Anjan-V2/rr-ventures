@@ -1,5 +1,6 @@
 (function($, document, window){
 	
+
 	$(document).ready(function(){
 
 		// Cloning main navigation for mobile menu
@@ -107,4 +108,5 @@
 	    });
 	});
 
+	
 })(jQuery, document, window);

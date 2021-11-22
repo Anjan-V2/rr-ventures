@@ -2161,6 +2161,24 @@ form input[type="reset"]:after {
   background: #212121b6;
 }
 
+.seperator1 hr {
+  width: 25%;
+  /* position: absolute; */
+  margin-top: -20px;
+  right: 1;
+  border: 1px solid #f3bb1e;
+  /* right: 11em; */
+}
+
+.seperator2 hr {
+  width: 25%;
+  position: absolute;
+  margin-top: -20px;
+  right: 1;
+  border: 1px solid #f3bb1e;
+  /* right: 11em; */
+}
+
 .solutech_pricing2_area {
   padding: 95px 0px 70px;
 }
@@ -2488,6 +2506,25 @@ form input[type="reset"]:after {
   padding: 25px;
 }
 
+.section-title2 {
+  /* text-align: center; */
+  margin-bottom: 40px;
+  font-size: 2.6rem;
+  color: goldenrod;
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0px;
+  padding-top: 25px;
+}
+
+@media(max-width: 991.98px) {
+  .section-title {
+    font-size: 1.7em;
+    letter-spacing: 1px;
+  }
+}
+
 .separator {
   border: none;
   border-top: 1px solid #383838;
@@ -2646,23 +2683,27 @@ form input[type="reset"]:after {
   /* margin-bottom: 30px; */
   /* margin-right: 50px; */
   background-color: #6860603b;
-  transition: all 0.3s cubic-bezier(0.26, 0.01, 0.82, 0.79);
+  /* transition: all 0.3s cubic-bezier(0.26, 0.01, 0.82, 0.79); */
 }
 
-.our-vision .card:hover {
+/* .our-vision .card:hover {
   transform: scale(1.084);
-}
+} */
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
 
   .svg-icons1 img {
-    width: 20%;
+    width: 17%;
     background: #e2ba54ab;
-    border-radius: 0px;
+    border-radius: 35px;
   }
 
   .svg-icons1 h1 {
     font-size: 19px;
+  }
+
+  .svg-icons1 h2 {
+    font-size: 1.4em;
   }
 
   .svg-icons2 img {
@@ -3094,15 +3135,37 @@ form input[type="reset"]:after {
 /*
  * Footer Styles
  */
+
 .site-footer {
   margin-top: 20px;
   color: white;
   background: rgb(90 68 42 / 82%);
 }
 
+.site-footer .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 74px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+@media(max-width: 991.98px) {
+  .site-footer .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 18px;
+  }
+}
+
 .site-footer .container {
   border-top: 1px solid #383838;
-  padding: 30px 0px 20px;
+  padding: 30px 0px 20px 0px;
+  margin-left: 18rem;
   position: relative;
   /* *zoom: 1; */
 }
@@ -3128,11 +3191,10 @@ h3 {
 
 .contact {
   display: grid;
-  /* justify-content: center; */
-  font-size: 18px;
-  /* font-weight: 500; */
+  justify-content: end;
+  font-size: 16px;
   letter-spacing: 1.5px;
-  line-height: 2.3em;
+  line-height: 2.6em;
   margin-left: 0px;
 }
 
@@ -3147,7 +3209,7 @@ h3 {
 
 .site-footer .navigation {
   display: grid;
-  justify-content: center;
+  justify-content: end;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 2.2px;
@@ -3171,6 +3233,7 @@ h3 {
 @media(max-width: 991.98px) {
   .contact {
     letter-spacing: 1.8px;
+    justify-content: left;
   }
 
   .site-footer .navigation {
@@ -3180,12 +3243,12 @@ h3 {
 }
 
 .address {
-  text-align: initial;
-  line-height: 2.0em;
-  font-size: 18px;
+  text-align: left;
+  line-height: 2em;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.2px;
-  padding-right: 47px;
+  /* padding-right: 47px; */
   margin-left: 0px;
 }
 

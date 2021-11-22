@@ -64,9 +64,8 @@
 	});
 
 
-	$(window).imagesLoaded(function(){
-		var $container = $('.filterable-items');
-
+	var container = $('.container').imagesLoaded(function(){
+		var $container = $('.filterable-items')
 	    $container.isotope({
 	        filter: '*',
 	        layoutMode: 'fitRows',

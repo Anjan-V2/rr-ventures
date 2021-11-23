@@ -64,15 +64,17 @@
 	});
 
 
-	var container = $('.filterable-items').imagesLoaded(function(){
-		var $container = $('.filterable-items').isotope({	    
+	var $container = $('.filterable-items').imagesLoaded(function(){
+		$('.filterable-items').isotope({	    
 	        filter: '*',
 	        layoutMode: 'fitRows',
+			percentPosition: true,
 	        animationOptions: {
 	            duration: 750,
 	            easing: 'linear',
 	            queue: false
-	        }
+	        },
+			transitionDuration: '0.6s'
 	    });
 
 	    $('.filterable-nav a').click(function(e){

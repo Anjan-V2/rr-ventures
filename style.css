@@ -2498,7 +2498,7 @@ form input[type="reset"]:after {
 } */
 
 .fullwidth-block2.image-block2 {
-  background: url("/dummy/3-1.png");
+  background: url("dummy/3-1.png");
   background-position: center center;
   min-height: 300px;
   /* top: 0; */

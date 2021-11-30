@@ -2616,6 +2616,12 @@ form input[type="reset"]:after {
   padding-top: 75px;
 }
 
+@media(max-width: 991.98px) {
+  .about-bg .image-block {
+    background-size: cover;
+  }
+}
+
 .about2 img {
   max-width: 100%;
 }

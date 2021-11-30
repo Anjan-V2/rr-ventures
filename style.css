@@ -2197,7 +2197,7 @@ form input[type="reset"]:after {
 .witr_section_title_inner h3 {
   font-size: 35px;
   margin: auto;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .witr_section_title_inner h2 {
@@ -2341,11 +2341,12 @@ form input[type="reset"]:after {
 .counter_bg .witr_counter_single {
   text-align: center;
   margin-bottom: 30px;
+  color: goldenrod;
 }
 
 .counter_bg .all_counter_color h3,
 .counter_bg .all_counter_color span {
-  color: goldenrod;
+  color: white;
   font-family: "Barlow Condensed", Sans-serif;
   font-weight: 600;
   padding: 10px 0px 10px 0px;
@@ -2366,7 +2367,10 @@ form input[type="reset"]:after {
 
 .counter_bg .witr_custom_icon i {
   margin-bottom: 0px;
+  /* color: #dd9136; */
   color: goldenrod;
+  /* color: rgb(163, 126, 31); */
+  /* color: #c36506cc; */
 }
 
 .witr_counter_number_inn {
@@ -2376,7 +2380,7 @@ form input[type="reset"]:after {
 .witr_counter_number_inn h3,
 .witr_counter_number_inn span {
   font-size: 40px;
-  color: #0c5adb;
+  color: goldenrod;
   display: inline-block;
   font-weight: 700;
   margin-bottom: 0;
@@ -2410,12 +2414,13 @@ form input[type="reset"]:after {
 
 .accordion_area .card-2 p {
   padding: 15px 20px 5px;
+  font-size: 16px;
 }
 
 .witr_ac_style {
   padding-left: 30px;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   align-items: center;
   padding: 11px 15px;
@@ -2483,12 +2488,27 @@ form input[type="reset"]:after {
   text-align: justify;
 }
 
-.fullwidth-block2.image-block2 {
+/* .fullwidth-block2.image-block2 {
+  background: url("/dummy/3-1.png");
   min-height: 250px;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 30px;
+  background-repeat: no-repeat;
+  padding-top: 75px;
+} */
+
+.fullwidth-block2.image-block2 {
+  background: url("/dummy/3-1.png");
+  background-position: center center;
+  min-height: 300px;
+  /* top: 0; */
+  /* width: 100%; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
 }
+
 
 @media(max-width: 991.98px) {
   .fullwidth-block.image-block {
@@ -2501,7 +2521,6 @@ form input[type="reset"]:after {
   font-size: 2.1em;
   color: goldenrod;
   letter-spacing: 2px;
-  font-weight: 300;
   text-transform: uppercase;
   padding: 25px;
 }
@@ -2578,10 +2597,22 @@ form input[type="reset"]:after {
   margin-bottom: 10px;
 }
 
-.about-bg .image-block {
+/* .about-bg .image-block {
   min-height: 250px;
   background-attachment: fixed;
   background-size: cover;
+  padding-top: 75px;
+} */
+
+.about-bg .image-block {
+  background: url("/dummy/section-bg.jpg");
+  /* background-position: center center; */
+  min-height: 250px;
+  top: 0;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
   padding-top: 75px;
 }
 
@@ -2638,7 +2669,7 @@ form input[type="reset"]:after {
   font-size: 27px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.19em;
+  letter-spacing: 0.18em;
 }
 
 .svg-icons1 p {
@@ -2869,6 +2900,10 @@ form input[type="reset"]:after {
   margin-bottom: 60px;
 }
 
+.page3 {
+  margin-bottom: 50px;
+}
+
 .page h1 {
   font-weight: 500;
   color: goldenrod;
@@ -3067,6 +3102,34 @@ form input[type="reset"]:after {
   float: left;
 }
 
+figcaption a>img {
+  transition: all 0.3s cubic-bezier(0.17, 0.93, 0.32, 1.28);
+}
+
+figcaption a>img:before {
+  content: "View";
+  position: absolute;
+  color: #d4cec8;
+  left: 100%;
+  opacity: 0;
+  transition: 0.2s ease-in;
+  padding-right: 5px;
+}
+
+figcaption a>img:hover {
+  /* transform: scale(2.0); */
+  transform: translate(50%);
+}
+
+figcaption a>img:hover:before {
+  opacity: 1;
+}
+
+figcaption a>img span {
+  display: inline-block;
+  transition: 0.6s ease-in;
+}
+
 @media screen and (max-width: 768px) {
   .project-item {
     width: 50%;
@@ -3149,7 +3212,27 @@ form input[type="reset"]:after {
   padding-right: 100px;
   padding-top: 40px;
   padding-bottom: 16px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url("dummy/3-1.png");
+  background-size: cover;
+  position: relative;
 }
+
+.site-footer .container-fluid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #14141488;
+  /* background: rgb(90 68 42 / 82%); */
+}
+
 
 @media(max-width: 991.98px) {
   .site-footer .container-fluid {
@@ -3173,6 +3256,7 @@ form input[type="reset"]:after {
 .site-footer h2,
 h3 {
   color: goldenrod;
+  font-weight: 500;
 }
 
 .site-footer .container:after {
@@ -3191,7 +3275,7 @@ h3 {
 
 .contact {
   display: grid;
-  justify-content: end;
+  justify-content: space-around;
   font-size: 16px;
   letter-spacing: 1.5px;
   line-height: 2.6em;
@@ -3209,7 +3293,7 @@ h3 {
 
 .site-footer .navigation {
   display: grid;
-  justify-content: end;
+  justify-content: space-between;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 2.2px;
